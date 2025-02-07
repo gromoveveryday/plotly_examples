@@ -2,7 +2,7 @@ import pandas as pd
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 
-df = pd.read_csv(r'D:\DATASETS\demographic_data.csv')
+df = pd.read_csv(r'Z:\DATASETS\demographic_data.csv')
 df = df.drop(['State FIPS Code', 'County FIPS Code', 'Total Population', 'FIPS'], axis=1)
 
 df_state = df
